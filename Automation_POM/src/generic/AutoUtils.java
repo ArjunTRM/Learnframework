@@ -10,6 +10,8 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
+import com.sun.org.apache.xpath.internal.operations.String;
+
 public class AutoUtils 
 {
 	//Method to take screenshot
