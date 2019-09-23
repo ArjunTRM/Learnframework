@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Home page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[testValidLogin is PASSED]]>
+    </line>
+    <line>
+      <![CDATA[testInvalidLogin is PASSED]]>
+    </line>
+    <line>
+      <![CDATA[testProductVerson is PASSED]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="70224" started-at="2019-09-01T04:15:52Z" finished-at="2019-09-01T04:17:02Z">
+    <groups>
+      <group name="smoke">
+        <method signature="ValidLogin_Test.testValidLogin()[pri:1, instance:script.ValidLogin_Test@4c70fda8]" name="testValidLogin" class="script.ValidLogin_Test"/>
+        <method signature="VerifyProductVersion_Test.testProductVerson()[pri:3, instance:script.VerifyProductVersion_Test@224edc67]" name="testProductVerson" class="script.VerifyProductVersion_Test"/>
+      </group> <!-- smoke -->
+      <group name="login">
+        <method signature="InvalidLogin_Test.testInvalidLogin()[pri:2, instance:script.InvalidLogin_Test@14acaea5]" name="testInvalidLogin" class="script.InvalidLogin_Test"/>
+        <method signature="ValidLogin_Test.testValidLogin()[pri:1, instance:script.ValidLogin_Test@4c70fda8]" name="testValidLogin" class="script.ValidLogin_Test"/>
+      </group> <!-- login -->
+    </groups>
+    <test name="Test" duration-ms="70224" started-at="2019-09-01T04:15:52Z" finished-at="2019-09-01T04:17:02Z">
+      <class name="script.InvalidLogin_Test">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:script.InvalidLogin_Test@14acaea5]" name="openApp" is-config="true" duration-ms="6938" started-at="2019-09-01T09:46:23Z" finished-at="2019-09-01T09:46:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:script.InvalidLogin_Test@14acaea5]" name="testInvalidLogin" duration-ms="18044" started-at="2019-09-01T09:46:30Z" finished-at="2019-09-01T09:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.InvalidLogin_Test@14acaea5]" name="closeApp" is-config="true" duration-ms="700" started-at="2019-09-01T09:46:48Z" finished-at="2019-09-01T09:46:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=InvalidLogin_Test.testInvalidLogin()[pri:2, instance:script.InvalidLogin_Test@14acaea5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[testInvalidLogin is PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- script.InvalidLogin_Test -->
+      <class name="script.VerifyProductVersion_Test">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:script.VerifyProductVersion_Test@224edc67]" name="openApp" is-config="true" duration-ms="5970" started-at="2019-09-01T09:46:49Z" finished-at="2019-09-01T09:46:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testProductVerson()[pri:3, instance:script.VerifyProductVersion_Test@224edc67]" name="testProductVerson" duration-ms="7003" started-at="2019-09-01T09:46:55Z" finished-at="2019-09-01T09:47:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductVerson -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.VerifyProductVersion_Test@224edc67]" name="closeApp" is-config="true" duration-ms="693" started-at="2019-09-01T09:47:02Z" finished-at="2019-09-01T09:47:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductVerson status=SUCCESS method=VerifyProductVersion_Test.testProductVerson()[pri:3, instance:script.VerifyProductVersion_Test@224edc67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[testProductVerson is PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- script.VerifyProductVersion_Test -->
+      <class name="script.ValidLogin_Test">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:script.ValidLogin_Test@4c70fda8]" name="openApp" is-config="true" duration-ms="17833" started-at="2019-09-01T09:45:52Z" finished-at="2019-09-01T09:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:script.ValidLogin_Test@4c70fda8]" name="testValidLogin" duration-ms="12115" started-at="2019-09-01T09:46:10Z" finished-at="2019-09-01T09:46:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Home page is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.ValidLogin_Test@4c70fda8]" name="closeApp" is-config="true" duration-ms="843" started-at="2019-09-01T09:46:22Z" finished-at="2019-09-01T09:46:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=ValidLogin_Test.testValidLogin()[pri:1, instance:script.ValidLogin_Test@4c70fda8] output=Home page is Displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[testValidLogin is PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- script.ValidLogin_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
